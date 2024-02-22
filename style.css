@@ -152,7 +152,8 @@ a:hover img {
 #gnav {
   background: #603813;
   position: sticky;
-top: 0;
+  top: 0;
+  z-index: 1000;
 }
 #gnav ul {
   overflow: hidden;
@@ -392,7 +393,7 @@ top: 0;
 				box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 	
 			}
-			  .viewer-box input[name="switch"] {
+			.viewer-box input[name="switch"] {
 				display: none;
 			}
 	
@@ -409,7 +410,6 @@ top: 0;
 	
 			.viewer-box label:hover {
 				opacity: 0.9;
-	
 			}
 	
 			.viewer-box label img {
